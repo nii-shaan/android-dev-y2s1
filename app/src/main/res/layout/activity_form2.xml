@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormActivity2">
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:id="@+id/countryLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Country" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="15sp"
+        android:id="@+id/countryDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="SelectedCountry" />
+
+    <TextView
+        android:id="@+id/cityLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City" />
+
+    <AutoCompleteTextView
+        android:id="@+id/cities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter city" />
+</LinearLayout>
